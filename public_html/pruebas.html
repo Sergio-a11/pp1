@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JS</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+            var clicks = 0;
+            function incrementar()
+            {
+                clicks = clicks + 1;
+                document.getElementById('contador').innerHTML = clicks;
+            }
+        </script>
+        <script src="JS/js.js" type="text/JavaScript"></script>
+    </head>
+    <body>
+        <h1>Código JavaScript</h1>
+        <button type="button" onclick="incrementar()">Incrementar</button>
+        <p>Hacer Click</p>
+        <p id="contador">0</p>
+        <input type="button" onclick="capturarNombre()" value="Capturar"/>
+        <br>
+        <input type="button" onclick="nPares()" value="Numeros Pares [0,1000]"/>
+    </body>
+</html>

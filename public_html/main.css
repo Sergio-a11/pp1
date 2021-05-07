@@ -1,0 +1,118 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0.45turn, #ffffff, #8888ff);
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+}
+
+header, nav, section, footer {
+    background-color: lightgoldenrodyellow;
+    border-style: solid;
+    border: 1px;
+    margin: 10px;
+    width: 90%;
+    padding: 20px;
+    display: block;
+    border-radius: 22px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.125rem;
+    height: 77vh;
+}
+
+header img {
+    border-radius: 22px;
+    width: 90vw;
+    max-width: 500px;
+}
+
+
+
+nav {
+    background-color: olivedrab;
+}
+
+nav a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav a:hover {
+    background-color: forestgreen;
+    border-radius: 22px;
+}
+
+nav li{
+    display: inline;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+nav li a {
+    padding: 0.8em;
+}
+
+@media (max-width: 600px) {
+    nav a{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.125rem;
+    text-align: justify;
+}
+
+#actividades table{
+    border-style: solid;
+    border-radius: 6px;
+    text-align: center;
+    padding: 3px;
+    margin: 3px;
+}
+
+#actividades table caption{
+    font-size: 1.2rem;
+    border-style: solid;
+    border-radius: 6px;
+    text-align: center;
+    padding: 3px;
+    margin: 3px;
+}
+
+#actividades table tr:hover {
+    
+    background: darksalmon;
+    transition: all 0.1s ease-in-out;
+}
+
+#videos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.125rem;
+}
+
+
